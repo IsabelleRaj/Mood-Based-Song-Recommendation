@@ -18,7 +18,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 nltk.download('stopwords')
 
 # Set the app title
-st.title('MoodTunes')
+st.title(':blue[MoodTunes]')
 st.subheader('A Mood-Based Song Recommendation System :musical_note:')
 
 # Display the app introduction
@@ -285,7 +285,7 @@ if len(user_prompt) != 0:
 # Add sidebar content
 with st.sidebar:
     # Give it a title
-    st.title(":red[Mood-based Song Recommendation]")
+    st.title(":blue[Mood-based Song Recommendation]")
 
     # Short description
     st.markdown("""
