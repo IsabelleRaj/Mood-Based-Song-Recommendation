@@ -1,7 +1,7 @@
 streamlit==1.41.1
 pandas
 numpy
-scipy==1.12
+scipy<1.13
 gensim==4.2.0
 nltk
 word2number
