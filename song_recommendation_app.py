@@ -18,7 +18,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 nltk.download('stopwords')
 
 # Set the app title
-st.title('MoodTunes: A Mood-Based Song Recommendation System :musical_note:')
+st.title('MoodTunes')
+st.subheader('A Mood-Based Song Recommendation System :musical_note:')
 
 # Display the app introduction
 st.markdown("""
