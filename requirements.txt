@@ -3,7 +3,7 @@ pandas
 numpy
 nltk
 word2number
-gensim
-scipy
+scipy==1.9.3
+gensim==4.3.2
 transformers
 scikit-learn
