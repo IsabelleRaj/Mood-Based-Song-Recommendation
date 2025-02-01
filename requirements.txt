@@ -2,7 +2,7 @@ streamlit==1.41.1
 pandas
 numpy
 scipy<1.13
-gensim==4.2.0
+gensim
 nltk
 word2number
 transformers
