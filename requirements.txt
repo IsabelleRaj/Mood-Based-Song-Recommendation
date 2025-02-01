@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+nltk
+word2number
+gensim
+transformers
+scikit-learn
