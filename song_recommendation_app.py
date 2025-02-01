@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import WhitespaceTokenizer 
 from nltk.stem import SnowballStemmer
@@ -12,6 +13,9 @@ from gensim.corpora import Dictionary
 from gensim.models import LdaMulticore
 from transformers import pipeline
 from sklearn.metrics.pairwise import cosine_similarity
+
+# Download the stopwords
+nltk.download('stopwords')
 
 # Set the app title
 st.title('Mood-Based Song Recommendation System :musical_note:')
