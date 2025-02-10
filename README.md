@@ -29,10 +29,14 @@ These are the features of this app:
 ## Data
 
 ### Data Source
-The original data was downloaded from Kaggle: [960K Spotify Songs With Lyrics data](https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics). This contains a variety of features including song metadata, audio features and lyrics. However, Spotify's TOS prevents use of their audio features and data for machine learning. Therefore, only the song title, album title, artist(s) name and song lyrics were kept as they are publically available. 
+The original data was downloaded from Kaggle: [960K Spotify Songs With Lyrics data](https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics). This contains a variety of features including song metadata, audio features and lyrics. 
+
+However, Spotify's TOS prevents use of their audio features and data for machine learning. Therefore, only the song title, album title, artist(s) name and song lyrics were kept as they are publically available. 
 
 ### Data processing
-Due to the large sample size, only 10,000 randomly sampled songs were used. For each song, their lyrics were used for emotion detection using a [pre-trained BERT model for emotion classification](https://huggingface.co/michellejieli/emotion_text_classifier); and for LDA topic modelling. The final dataset, provided in the data folder, contains each songs, its metadata, its dominant emotion and topic distribution. 
+Due to the large sample size, only 10,000 randomly sampled songs were used. 
+
+For each song, their lyrics were used for emotion detection using a [pre-trained BERT model for emotion classification](https://huggingface.co/michellejieli/emotion_text_classifier); and for LDA topic modelling. The final dataset, provided in the data folder, contains each songs, its metadata, its dominant emotion and topic distribution. 
 
 Refer to `song_recommendation.ipynb` for full details on the processing.
     
