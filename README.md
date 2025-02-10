@@ -6,7 +6,7 @@
 3. [Data](#data)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Results & Challenges](#results-&-challenges)
+6. [Results and Challenges](#results-and-challenges)
 7. [Future Improvements](#future-improvements)
 8. [Acknowledgments](#acknowledgement)
 
@@ -67,7 +67,7 @@ Here is a demonstration of the app:
 
 <img src="MoodTunes Demo Video.gif" width="1000" height="450">
 
-## Results & Challenges
+## Results and Challenges
 Here are some key findings and challenges:
 1. Most songs in the dataset were labelled as joyful or sad; and also belong to the the love & relationships dominant topic, aligning with common emotional expressions in music but leading to an imbalanced dataset.
 2. Low coherence scores in LDA suggested that lyrics may not always have strong, well-defined topics.
